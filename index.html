@@ -1,0 +1,464 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Pezzo!</title>
+</head>
+<body class="noSelect">  
+    <div class="main-wrapper">
+        <div class="navbar">
+            <div class="mobile-upper">
+                <div class="time">
+                    <div class="dot"></div>
+                    <span>closed until 10:00 am</span> 
+                </div>
+                <div class="call cBig">call 800pezzo</div>
+            </div>
+            <div class="wrapper">                
+                <div class="menu pre-hide" id="menuid">                    
+                    <div class="item cBig">about pezzo</div>
+                    <div class="item cBig">food menu</div>
+                    <div class="item cBig">locations</div>
+                </div>  
+                <div class="burger cBig">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>              
+                <img class="logo cBig" src="Pmedia/logo2.svg" alt="">
+                <div class="contact pre-hide" id="contactid">
+                    <div class="order cBig">order now</div>
+                    <div class="call cBig">call 800pezzo</div>
+                    <div class="time">
+                        <div class="dot"></div>
+                        <span>closed until 10:00 am</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar drop-down-navbar" id="dropBar">
+            <div class="mobile-upper">
+                <div class="time">
+                    <div class="dot"></div>
+                    <span>closed until 10:00 am</span> 
+                </div>
+                <div class="call cBig">call 800pezzo</div>
+            </div>
+            <div class="wrapper">                
+                <div class="menu">                    
+                    <div class="item cBig">about pezzo</div>
+                    <div class="item cBig">food menu</div>
+                    <div class="item cBig">locations</div>
+                </div>  
+                <div class="burger cBig">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>              
+                <img class="logo cBig" src="Pmedia/logo2.svg" alt="">
+                <div class="contact">
+                    <div class="order cBig">order now</div>
+                    <div class="call cBig">call 800pezzo</div>
+                    <div class="time">
+                        <div class="dot"></div>
+                        <span>closed until 10:00 am</span> 
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="wrapper">                
+                <div class="menu">                    
+                    <div class="item cBig">about pezzo</div>
+                    <div class="item cBig">food menu</div>
+                    <div class="item cBig">locations</div>
+                </div>                
+                <img class="logo cBig " src="Pmedia/logo2.svg" alt="">
+                <div class="contact">
+                    <div class="order cBig">order now</div>
+                    <div class="call cBig">call 800pezzo</div>
+                    <div class="time">
+                        <div class="dot"></div>
+                        <span>closed until 10:00 am</span> 
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div class="carousel-title" id="cartitleid">
+            <div class="inner pre-hide" id="cartitleinnerid">
+                <div class="caption">I'm craving</div>        
+                <div class="sNameWrapper">                
+                    <div class="clipBox" style="width:4vw" id="clipboxid">               
+                        <div class="scrollBox anim" id="sName">&nbsp</div>                
+                    </div> 
+                    <div class="dashBox" style="width:4vw" id ="dashbox"></div>
+                </div>
+            </div>                                  
+        </div>
+        <div class="carousel" id="dragzoneid">
+            <div class="caption-arrow1 cap-arrow-pre" id="caparrowid">
+                <p>not a pizza,<br>
+                not a<br>
+                flatbread</p>        
+                <div class="arrow1">
+                <div class="svgtail"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 66 133" fill="none"><path d="M1.08212 131.429C10.7442 123.386 21.2624 116.507 29.9656 107.318C38.7537 98.0072 46.3245 87.2773 51.8237 75.6991C62.9073 52.422 64.8832 25.8936 56.0215 1.55721C55.5663 0.386939 57.5461 0.0868183 57.956 1.11674C68.5301 25.8132 67.1065 53.093 56.0594 77.4434C50.5734 89.5909 43.0656 100.564 33.8643 110.179C24.748 119.673 14.5082 128.663 1.8809 132.752C1.207 133.017 0.358518 132.02 1.08212 131.429Z" fill="#E8E6D9"></path></svg></div>
+                <div class="svghead"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 41" fill="none"><path d="M0.896112 29.8208C6.07821 20.3341 10.9641 10.6023 16.8237 1.48534C18.6701 -1.43645 23.7578 2.17113 21.8186 5.04547C16.3611 13.0561 11.8497 21.6439 6.69838 29.8344C20.2882 33.0317 34.2691 34.3203 47.8589 37.5176C49.5344 37.9054 49.7791 40.6777 47.7676 40.3056C32.8692 37.3766 17.6705 36.6369 2.83951 33.4847C1.08885 33.1522 -0.0143553 31.417 0.896112 29.8208Z" fill="#E8E6D9"></path></svg></div>                    
+                </div>                
+            </div>
+            <div class ="interface noSelect">               
+                <div class="order-button b1 cBig pre-shrink" id="obutton1id">
+                    <span>order<br> 
+                    now
+                    </span>                
+                </div>
+                <div class="jogbox pre-hide" id="jogboxid">                
+                    <div class="jogbutton cBig" style="transform: rotateY(180deg);" onclick="jogClick(1)"></div>
+                    <div class="jogbutton cBig" onclick="jogClick(-1)"></div>
+                </div> 
+                <div class="ar-comp ar1 pre-hide" id="ar1id">
+                <div class="svgtail"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 66 133" fill="none"><path d="M1.08212 131.429C10.7442 123.386 21.2624 116.507 29.9656 107.318C38.7537 98.0072 46.3245 87.2773 51.8237 75.6991C62.9073 52.422 64.8832 25.8936 56.0215 1.55721C55.5663 0.386939 57.5461 0.0868183 57.956 1.11674C68.5301 25.8132 67.1065 53.093 56.0594 77.4434C50.5734 89.5909 43.0656 100.564 33.8643 110.179C24.748 119.673 14.5082 128.663 1.8809 132.752C1.207 133.017 0.358518 132.02 1.08212 131.429Z" fill="#E8E6D9"></path></svg></div>
+                <div class="svghead"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 41" fill="none"><path d="M0.896112 29.8208C6.07821 20.3341 10.9641 10.6023 16.8237 1.48534C18.6701 -1.43645 23.7578 2.17113 21.8186 5.04547C16.3611 13.0561 11.8497 21.6439 6.69838 29.8344C20.2882 33.0317 34.2691 34.3203 47.8589 37.5176C49.5344 37.9054 49.7791 40.6777 47.7676 40.3056C32.8692 37.3766 17.6705 36.6369 2.83951 33.4847C1.08885 33.1522 -0.0143553 31.417 0.896112 29.8208Z" fill="#E8E6D9"></path></svg></div>                    
+                </div>
+                <div class="slice-namebox pre-hide" id="slicenameboxid">
+                    <div class="upper">
+                        <div class="name" id="longName1"></div>
+                        <div class="price del" id="price"></div>
+                    </div>  
+                    <div class="upper">
+                        <div class="name del" id="longName2"></div>
+                    </div>              
+                </div>                
+            </div>            
+            <div class="wheel noSelect " id ="cAxle">
+                <div class="anchor r0 swingin"> 
+                <div class="slice">  
+                    <img class="selShadow" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow zeroOp" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0000_slice-MEATY-spicy-salami.png" alt="">
+                </div>
+                </div>
+                <div class="anchor r1 swingin">                
+                <div class="slice">
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0001_slice-Burrata.png" alt="">
+                </div>                                      
+                </div>
+                <div class="anchor r2 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0002_slice-MEATY-tandoori.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r3 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0003_slice-MEATY-truffle-salami.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r4 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0004_MEATY-cheeseburger.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r5 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0005_slice-MEATY-Buffalo.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r6 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0006_slice-MEATY-Shish.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r7 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0007_slice-MEATY-chicken-fajita.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r8 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0008_slice-MEATY-pepperoni.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r9 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0009_slice-MEATY-pesto.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r10 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0000_slice-MEATY-spicy-salami.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r11 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0001_slice-Burrata.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r12 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0002_slice-MEATY-tandoori.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r13 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0003_slice-MEATY-truffle-salami.png" alt="">
+                </div>                  
+                </div>
+                <div class="anchor r14 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0004_MEATY-cheeseburger.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r15 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0005_slice-MEATY-Buffalo.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r16 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0006_slice-MEATY-Shish.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r17 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0007_slice-MEATY-chicken-fajita.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r18 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0008_slice-MEATY-pepperoni.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r19 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0009_slice-MEATY-pesto.png" alt="">
+                </div>                  
+                </div>
+                <div class="anchor r20 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0000_slice-MEATY-spicy-salami.png" alt="">
+                </div>                
+                </div>
+                <div class="anchor r21 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0001_slice-Burrata.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r22 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0002_slice-MEATY-tandoori.png" alt="">
+                </div>                 
+                </div>
+                <div class="anchor r23 swingin">
+                <div class="slice">  
+                    <img class="selShadow zeroOp" src="Pmedia/gradient.png.png" alt="">               
+                    <img class="shadow" src="Pmedia/pinza-shadow-short.png" alt=""> 
+                    <img src="Pmedia/0003_slice-MEATY-truffle-salami.png" alt="">
+                </div>                 
+                </div>
+            </div>
+            
+        </div>
+        <div class="mt-container">
+            <div class="backdrop"></div>
+            <div class="moving-text-wrapper"> 
+                <div class="moving-text"> 
+                    <div class="move-text"> 
+                        <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px);" id="mt1a">PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE.</h2> 
+                        <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px); left: 115%" id="mt1b">PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE.</h2> 
+                    </div>         
+                </div> 
+            </div>
+        </div>
+        <div class="pizzaBoardSec"  id="pboardsecid">
+           <div class="pizzaBoard board-pre-move" id="pizzaboardid">
+                <img class="board" src="Pmedia/cuttingboard.png" alt=""></img>
+                <div class="board-slices"> 
+                    <img class="board-slice bs1"  alt="" src="Pmedia/Layer 6.png">
+                    <img class="board-slice bs2" id="bs2" alt="" src="Pmedia/Layer 5 copy.png">
+                    <img class="board-slice bs3" id="bs3" alt="" src="Pmedia/Layer 4.png">
+                    <img class="board-slice bs4" id="bs4" alt="" src="Pmedia/Layer 2.png">
+                    <img class="board-slice bs5"  alt="" src="Pmedia/Layer 7.png">
+                    <img class="board-slice bs6" id="bs6" alt="" src="Pmedia/Layer 5.png">
+                    <img class="board-slice bs7" id="bs7" alt="" src="Pmedia/Layer 3.png">
+                    <img class="board-slice bs8" id="bs8" alt="" src="Pmedia/Layer 1.png">
+                    <img class="board-slice bs9" id="boardhandid"alt="" src="Pmedia/hand.png">
+                </div>
+                <div class="caption-arrow pre-hide" id="boardcapid">
+                    <p class="smaller">healthy and</p>
+                    <p>delicious</p>
+                    <div class="arrow">
+                        <div class="svgtail"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 66 133" fill="none"><path d="M1.08212 131.429C10.7442 123.386 21.2624 116.507 29.9656 107.318C38.7537 98.0072 46.3245 87.2773 51.8237 75.6991C62.9073 52.422 64.8832 25.8936 56.0215 1.55721C55.5663 0.386939 57.5461 0.0868183 57.956 1.11674C68.5301 25.8132 67.1065 53.093 56.0594 77.4434C50.5734 89.5909 43.0656 100.564 33.8643 110.179C24.748 119.673 14.5082 128.663 1.8809 132.752C1.207 133.017 0.358518 132.02 1.08212 131.429Z" fill="#003B4A"></path></svg></div>
+                        <div class="svghead"> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 41" fill="none"><path d="M0.896112 29.8208C6.07821 20.3341 10.9641 10.6023 16.8237 1.48534C18.6701 -1.43645 23.7578 2.17113 21.8186 5.04547C16.3611 13.0561 11.8497 21.6439 6.69838 29.8344C20.2882 33.0317 34.2691 34.3203 47.8589 37.5176C49.5344 37.9054 49.7791 40.6777 47.7676 40.3056C32.8692 37.3766 17.6705 36.6369 2.83951 33.4847C1.08885 33.1522 -0.0143553 31.417 0.896112 29.8208Z" fill="#003B4A"></path></svg></div>                    
+                    </div>                
+                </div>
+                <div class="order-button b2 cBig pre-hide" id="boardorderbuttonid">
+                    <span>order<br> 
+                        now
+                    </span>                
+                </div>
+            </div>
+            <div class="board-text-wrapper"> 
+                <div class="moving-text"> 
+                    <div class="move-text"> 
+                        <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px);" id="mt2a">it's time to bag that pezzo! it's time to bag that pezzo! it's time to bag that pezzo!</h2> 
+                        <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px); left: 115%" id="mt2b">it's time to bag that pezzo! it's time to bag that pezzo! it's time to bag that pezzo!</h2> 
+                    </div>      
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="flatbread-sec">
+            <div class="caption-box">
+                <span>at pezzo!</span>
+                <span class="alt">we believe</span>
+                <span>fresh is best</span>
+            </div>
+            <div class="bread-box">
+                <img src="Pmedia/Step_1.png" alt="" id="fBrd">               
+            </div>
+            <img class="powder1" src="Pmedia/powder-one.jpg" alt="">
+            <img class="powder2" src="Pmedia/powder-one.jpg" alt="">
+            <div class="label cBig">
+                <span>see what<br> 
+                    makes<br>
+                    pezzo! so<br>
+                    great
+                </span> 
+            </div>
+        </div>
+        <div class="last-scroll-text">
+            <div class="text-wrapper"> 
+                <div class="move-text"> 
+                    <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px);" id="mt3a">PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE.</h2> 
+                    <h2 style="transform: translate(0%, 0%) translate3d(0px, 0px, 0px); left: 115%" id="mt3b">PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE. PEZZO! IS FOR EVERYONE.</h2> 
+                </div>         
+            </div> 
+            <div class="filler"></div>
+        </div>
+        <div class="footer">
+            <div class="locwrapper">
+                <div class="locbox rborder cBig">
+                    <span>la</span>
+                </div>
+                <div class="locbox cBig">
+                    <span>sd</span>
+                </div>
+            </div>
+            <div class="info-wrapper">
+                <div class="info-left">
+                    <div class="title">franchise with pezzo!</div>
+                    <div class="info">The fast-food revolution is coming! Franchises available internationally.<br>
+                    Turnkey solutions available.</div>
+                    <div class="button cBig">LEARN MORE</div>
+                </div>
+                <div class="info-right">
+                    <div class="title">the lastest on pezzo</div>
+                    <div class="email-box">
+                        <label for="email"></label>
+                        <input class="imp" type="email" id="email" name="email" placeholder="Email Address *">
+                    </div>
+                    <div class="phone-wrapper">
+                        <div class="phone-area">+1</div>
+                        <div class="phone">
+                            <label for="phone"></label>
+                            <input type="tel" id="phone" name="phone"
+                             pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number *">
+                        </div>
+                    </div>
+                    <div class="send-wrapper">
+                        <div class="button cBig">SEND</div>
+                        <div class="details">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div>
+                    </div>
+                </div>                
+            </div>
+            <div class="bottom">
+                <div class="wrapper">
+                    <div class="contactbox">
+                        <span class="cBig">INFO@PEZZO.COM </span>
+                        &nbsp|&nbsp
+                        <span class="cBig">T: 800PEZZO </span>
+                        &nbsp|&nbsp
+                        <span class="cBig">Contact us</span>
+                    </div>
+                    <div class="smbox">
+                        <svg class="cBig" xmlns="http://www.w3.org/2000/svg" width="96" height="90" viewBox="0 0 31 30" fill="none">
+                            <g clip-path="url(#clip0)">
+                                <path d="M22.1409 0H8.38243C3.9046 0 0.261719 3.64288 0.261719 8.12071V21.8795C0.261719 26.3571 3.9046 29.9999 8.38243 29.9999H22.1412C26.6188 29.9999 30.2617 26.3571 30.2617 21.8795V8.12071C30.2617 3.64288 26.6188 0 22.1409 0V0ZM28.5029 21.8795C28.5029 25.3873 25.649 28.2412 22.1409 28.2412H8.38243C4.87437 28.2412 2.02044 25.3873 2.02044 21.8795V8.12071C2.02044 4.61265 4.87437 1.75872 8.38243 1.75872H22.1412C25.649 1.75872 28.5029 4.61265 28.5029 8.12071V21.8795Z" fill="white"></path>
+                                <path d="M15.2615 6.79688C10.7383 6.79688 7.05859 10.4766 7.05859 14.9998C7.05859 19.5229 10.7383 23.2026 15.2615 23.2026C19.7846 23.2026 23.4644 19.5229 23.4644 14.9998C23.4644 10.4766 19.7846 6.79688 15.2615 6.79688ZM15.2615 21.4439C11.7083 21.4439 8.81732 18.5531 8.81732 14.9998C8.81732 11.4466 11.7083 8.5556 15.2615 8.5556C18.8149 8.5556 21.7056 11.4466 21.7056 14.9998C21.7056 18.5531 18.8149 21.4439 15.2615 21.4439Z" fill="white"></path>
+                                <path d="M23.6621 3.88477C22.3255 3.88477 21.2383 4.97218 21.2383 6.30862C21.2383 7.64529 22.3255 8.7327 23.6621 8.7327C24.9988 8.7327 26.0862 7.64529 26.0862 6.30862C26.0862 4.97195 24.9988 3.88477 23.6621 3.88477ZM23.6621 6.97375C23.2955 6.97375 22.997 6.67529 22.997 6.30862C22.997 5.94172 23.2955 5.64349 23.6621 5.64349C24.029 5.64349 24.3275 5.94172 24.3275 6.30862C24.3275 6.67529 24.029 6.97375 23.6621 6.97375Z" fill="white"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="30" height="30" fill="white" transform="translate(0.261719)">
+
+                                    </rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg class="cBig" xmlns="http://www.w3.org/2000/svg" width="96" height="90" viewBox="0 0 31 30" fill="none">
+                            <path d="M28.9381 1.28014C28.0938 0.454559 26.9823 0 25.8086 0H4.65625C2.23308 0 0.261719 1.97136 0.261719 4.39453V25.6055C0.261719 28.0286 2.23308 30 4.65625 30H25.8672C28.2904 30 30.2617 28.0286 30.2617 25.6055V4.39453C30.2617 3.22037 29.7916 2.11441 28.9381 1.28014ZM16.1406 15.8789H14.3828V14.1211H16.1406C16.6261 14.1211 17.0195 13.7276 17.0195 13.2422C17.0195 10.8316 17.0193 9.72908 17.0193 9.22188C17.0191 8.28827 17.0204 7.27135 17.9323 6.49109C18.6274 5.89645 19.5134 5.53734 20.721 5.36064C21.995 5.17456 23.2879 5.2327 24.6534 5.53917C24.5497 6.23703 24.4268 7.06375 24.3341 7.68677C23.8159 7.58171 22.9267 7.4968 22.1989 7.62016C20.583 7.89345 19.6562 8.89618 19.6562 10.3711V13.2422C19.6562 13.7276 20.0497 14.1211 20.5352 14.1211H23.804L23.3646 15.8789H20.5352C20.0497 15.8789 19.6562 16.2724 19.6562 16.7578V28.2422H17.0195V16.7578C17.0195 16.2724 16.6261 15.8789 16.1406 15.8789ZM28.5039 25.6055C28.5039 27.0593 27.321 28.2422 25.8672 28.2422H21.4141V17.6367H24.0508C24.4541 17.6367 24.8056 17.3623 24.9034 16.9709L25.7823 13.4553C25.848 13.1927 25.7889 12.9147 25.6225 12.7013C25.4559 12.488 25.2002 12.3633 24.9297 12.3633H21.4141V10.3711C21.4141 9.96689 21.4974 9.52148 22.4926 9.35303C23.2712 9.22119 23.967 9.39514 24.5809 9.54895C24.8759 9.62265 25.1934 9.73503 25.5552 9.49013C25.7589 9.35211 25.8956 9.13513 25.932 8.89183C25.932 8.89183 26.3268 6.23932 26.5087 5.01297C26.5735 4.57626 26.3046 4.15924 25.8798 4.03839C24.1632 3.55019 22.0634 3.38974 20.4784 3.62137C18.9279 3.84819 17.7478 4.33548 16.7895 5.15556C15.4563 6.29631 15.2908 7.76001 15.2736 8.75816C15.2732 8.77853 15.2734 10.554 15.2734 12.3633H13.5039C13.0184 12.3633 12.625 12.7567 12.625 13.2422V16.7578C12.625 17.2433 13.0184 17.6367 13.5039 17.6367H15.2617V28.2422H4.65625C3.20239 28.2422 2.01953 27.0593 2.01953 25.6055V4.39453C2.01953 2.94067 3.20239 1.75781 4.65625 1.75781H25.8086C27.2695 1.75781 28.5039 2.96539 28.5039 4.39453V25.6055Z" fill="white">
+
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="copybox">
+                        <span>&copy 2023-2024 PEZZO. All rights reserved. </span>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="mycursor" id="cursor"></div>
+        <div class="online-order-button pre-hide" id="onlineorderid">order online</div>
+    </div>  
+        
+    <script defer src="js/script.js"></script>
+</body>
+</html>
