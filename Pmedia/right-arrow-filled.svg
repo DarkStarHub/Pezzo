@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>left-arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="left-arrow" transform="translate(49.000000, 49.000000) rotate(180.000000) translate(-49.000000, -49.000000) translate(2.000000, 2.000000)">
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="39.2432 36.9238 40.8675 38.5603 33.6396 45.8424 65.707 45.8424 65.707 48.1568 33.6396 48.1568 40.8675 55.4388 39.2432 57.0753 29.2424 46.9995"></polygon>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3" transform="translate(47.000000, 47.000000) scale(-1, 1) translate(-47.000000, -47.000000) " cx="47" cy="47" r="47"></circle>
+        </g>
+    </g>
+</svg>

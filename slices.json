@@ -1,0 +1,116 @@
+{ 
+    "slices":[        
+        {
+            "id": 0,
+            "shortname": "spicy",
+            "fullname": "spicy salami",
+            "price": 20.00, 
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 1,
+            "shortname": "burrata",
+            "fullname": "pezzofied margherita",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 2,
+            "shortname": "tandoori",
+            "fullname": "tandoori chicken",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 3,
+            "shortname": "truffle",
+            "fullname": "truffle salami",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 4,
+            "shortname": "burgers!",
+            "fullname": "the cheese burger",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 5,
+            "shortname": "buffalo",
+            "fullname": "buffalo chicken",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 6,
+            "shortname": "shish tawook",
+            "fullname": "shish tawook",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 7,
+            "shortname": "guacamole",
+            "fullname": "chicken fajitas",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 8,
+            "shortname": "pepperoni",
+            "fullname": "pepperoni",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        },
+        {
+            "id": 9,
+            "shortname": "pesto",
+            "fullname": "pesto",
+            "price": 20.00,
+            "width": "20%",       
+            "images":{
+                "a":"./assets/imgs/coats/102f.jpg",
+                "b":"./assets/imgs/coats/102r.jpg"               
+            }
+        }
+    ]
+}
+
+        
