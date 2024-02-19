@@ -1639,6 +1639,10 @@ body {
     transform: scale(1.8);
   }  
 
+  .carousel .interface .jogbox .jogbutton{
+    display: none;
+  }
+
   .navbar .mobile-upper{    
     display: flex;      
   }
