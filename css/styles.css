@@ -1642,6 +1642,10 @@ body {
   .carousel .interface .jogbox .jogbutton{
     display: none;
   }
+  .carousel .interface .jogbox{
+    height: 6vw;
+  }
+  
 
   .navbar .mobile-upper{    
     display: flex;      
