@@ -1639,13 +1639,11 @@ body {
     transform: scale(1.8);
   }  
 
+  /*
   .carousel .interface .jogbox .jogbutton{
     display: none;
-  }
-  .carousel .interface .jogbox{
-    height: 6vw;
-  }
-  
+  */
+
 
   .navbar .mobile-upper{    
     display: flex;      

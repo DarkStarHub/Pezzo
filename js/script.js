@@ -41,6 +41,10 @@ const cursorBigs = document.getElementsByClassName("cBig");
 
 const cursorMine = document.getElementById("cursor");
 
+/*
+const jbl = document.getElementById("jbl");
+const jbr = document.getElementById("jbr");*/
+
 
 
 const sliceDB =[
@@ -325,7 +329,7 @@ breadObserver.observe(document.getElementById("fBrd"));
 
 /* might need to change these to mousedown/up html events */
 //mouse down and drag listeners -----------------
-dragZoneEle.addEventListener("mousedown", function(e){    
+dragZoneEle.addEventListener("mousedown", function(e){      
     mouseDownFunction(e.screenX);       
 
     dragZoneEle.onmousemove = function(e) {        
@@ -347,16 +351,17 @@ dragZoneEle.addEventListener("mouseup", function(e){
 
 /// ------------------------------------------
 /// new touch stuff, in progress--------------
-dragZoneEle.addEventListener("touchstart", function(e){     
+dragZoneEle.addEventListener("touchstart", function(e){
+    e.preventDefault();    
     mouseDownFunction(e.touches[0].screenX);       
 
     dragZoneEle.ontouchmove = function(e){    
-    mouseMoveFunction(e.touches[0].screenX);
+    mouseMoveFunction(e.touches[0].screenX);    
     }
 
 });
 dragZoneEle.addEventListener("touchend", function(e){    
-    
+    e.preventDefault();
     mTEnd = new Date();    
 
     xEnd = e.changedTouches[0].screenX;
@@ -369,6 +374,10 @@ dragZoneEle.addEventListener("touchend", function(e){
 });
 /// new touch stuff, in progress--------------
 /// ------------------------------------------
+
+
+
+
 
 
 
@@ -435,7 +444,7 @@ function initSliceName(){
 
 
 //mouse down and drag functions -----------------
-function mouseDownFunction(e){  
+function mouseDownFunction(e){      
     mTStart = new Date();
     xStart = e;   
     initSlot = liveSlot;  
@@ -545,7 +554,7 @@ function jogWheel(dir){
 //mouse ended/no mouse functions ----------------
 
 
-function jogClick(inc){
+function jogClick(inc){     
     if(xEnd==xStart)
     {
         jogWheel(inc);
@@ -589,7 +598,7 @@ function changeName(inc){
 
     /* roll the full name here */
 
-    const tempArr = sliceDB[inc%10].fullname.split('<br>');   
+    const tempArr = sliceDB[inc%10].fullname.split('<br>');     
 
     if(tempArr.length ==1)
     {
